@@ -41,6 +41,7 @@ public class FrontServlet extends HttpServlet {
             out.println("<title>Servlet processServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>Votre url</h1>");
             out.println("<h1>" + utilitaire.getProcessUrl(url) + "</h1>");
             out.println("</body>");
             out.println("</html>");
